@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="4" time="0.071126">
+<testcase classname="To validate Login Functionality of facbook Application" name="_2" time="0.050639">
+<system-out><![CDATA[Given user have to enter faceook login through chrome browser...............skipped
+When user have to enter valid email and invalid password....................skipped
+And click login button......................................................skipped
+Then user have to reach invalid credentials page............................skipped
+]]></system-out>
+</testcase>
+<testcase classname="To validate Login Functionality of facbook Application" name="_3" time="0.005426">
+<system-out><![CDATA[Given user have to enter faceook login through chrome browser...............skipped
+When user have to enter valid invalid email and invalid password............skipped
+And click login buttons.....................................................skipped
+Then user have to reach invalid paswword credentials page...................skipped
+]]></system-out>
+</testcase>
+<testcase classname="" name="_2" time="0.008166">
+<system-out><![CDATA[Given to open google.com in google chrome...................................skipped
+When to open KGF movie gun..................................................skipped
+Then take screenshot........................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="" name="_2" time="0.006895">
+<skipped><![CDATA[Given user have to Enter Facebook login.....................................skipped
+And user have to click forgotton button.....................................skipped
+When User have to enter email or phone number...............................undefined
+Then user ahve to click search button.......................................skipped
+]]></skipped>
+</testcase>
+</testsuite>

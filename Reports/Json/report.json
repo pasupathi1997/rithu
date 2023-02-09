@@ -1,0 +1,424 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1278642,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user have to enter faceook login through chrome browser",
+            "match": {
+              "location": "Step.user_have_to_enter_faceook_login_through_chrome_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-27T23:55:42.525Z",
+        "before": [
+          {
+            "result": {
+              "duration": 580751,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.bef()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "",
+        "description": "    To validate login by using vald email and invalid password",
+        "id": "to-validate-login-functionality-of-facbook-application;",
+        "after": [
+          {
+            "result": {
+              "duration": 14864,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.aft(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1744021,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user have to enter valid email and invalid password",
+            "match": {
+              "location": "Step.user_have_to_enter_valid_email_and_invalid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 526604,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "click login button",
+            "match": {
+              "location": "Step.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 516694,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user have to reach invalid credentials page",
+            "match": {
+              "location": "Step.user_have_to_reach_invalid_credentials_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 517756,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user have to enter faceook login through chrome browser",
+            "match": {
+              "location": "Step.user_have_to_enter_faceook_login_through_chrome_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-27T23:55:42.583Z",
+        "before": [
+          {
+            "result": {
+              "duration": 17341,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.bef()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "",
+        "description": "    To validate login by using vald invalid email and invalid password",
+        "id": "to-validate-login-functionality-of-facbook-application;",
+        "after": [
+          {
+            "result": {
+              "duration": 11679,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.aft(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1439667,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user have to enter valid invalid email and invalid password",
+            "match": {
+              "location": "Step.user_have_to_enter_valid_invalid_email_and_invalid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 503600,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "click login buttons",
+            "match": {
+              "location": "Step.click_login_buttons()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 511386,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "user have to reach invalid paswword credentials page",
+            "match": {
+              "location": "Step.user_have_to_reach_invalid_paswword_credentials_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To validate Login Functionality of facbook Application",
+    "description": "",
+    "id": "to-validate-login-functionality-of-facbook-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/LogIn.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-12-27T23:55:42.589Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14156,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.bef()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "",
+        "description": "to open KGF movie gun",
+        "id": ";",
+        "after": [
+          {
+            "result": {
+              "duration": 25835,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.aft(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 497230,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "to open google.com in google chrome",
+            "match": {
+              "location": "Step.to_open_google_com_in_google_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 581458,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "to open KGF movie gun",
+            "match": {
+              "location": "Step.to_open_KGF_movie_gun()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 953408,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "take screenshot",
+            "match": {
+              "location": "Step.take_screenshot()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@google"
+          },
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "to open goo chomre and search KGF movie gun",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/launchgoogle.feature",
+    "tags": [
+      {
+        "name": "@google",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-12-27T23:55:42.619Z",
+        "before": [
+          {
+            "result": {
+              "duration": 19111,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.bef()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "",
+        "description": "To validate forgetten password",
+        "id": ";",
+        "after": [
+          {
+            "result": {
+              "duration": 12387,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hook.aft(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 457947,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user have to Enter Facebook login",
+            "match": {
+              "location": "Step.user_have_to_Enter_Facebook_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 434943,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user have to click forgotton button",
+            "match": {
+              "location": "Step.user_have_to_click_forgotton_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "User have to enter email or phone number",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 377966,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user ahve to click search button",
+            "match": {
+              "location": "Step.user_ahve_to_click_search_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@password"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "To validate forgotten password functionality",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/password.feature",
+    "tags": [
+      {
+        "name": "@password",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
